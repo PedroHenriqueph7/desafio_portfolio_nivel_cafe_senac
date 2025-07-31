@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#cabecalho{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#logo{
+    background-color: black;
+    width: 80px;
+    height: 50px;
+
+}
+
+#menu_principal{
+    background-color: white;
+    padding: 5px;
+    
+}
+
+#menu_principal, ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+li {
+    width: 60px;
+    height: 50px;
+    background-color: black;
+    
+}
+
+#conteudo_principal{
+    background-color: cornsilk;
+    display: flex;
+    padding: 10px;
+   
+
+}
+
+.section_principal{
+    height: 811px;
+    width: 100vw;
+    background-color: white;
+}
+
+#bloco_esquerda{
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#texto_principal{
+    height: 500px;
+    background-color: blue;
+}
+
+#botao{
+    height: 50px;
+    background-color: rgb(95, 95, 230);
+    margin: 10px 0px;
+}
+#redes_socias{
+    height: 221px;
+    background-color: black;
+}
+
+#bloco_direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foto{
+    width: 600px;
+    height: 400px;
+    background-color: blue;
+}
+
+
+
+
+
+
