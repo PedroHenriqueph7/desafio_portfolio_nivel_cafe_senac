@@ -199,8 +199,14 @@ li {
 #icoms_tech {
     height: 69%;
     background-color: aquamarine;
+    padding: 5px 0px;
 }
 
+.tecnologias {
+    height: 107px;
+    background-color: aqua;
+    margin: 5px;
+}
 #bloco_direita_pagina3 {
     display: flex;
     justify-content: center;
@@ -212,5 +218,52 @@ li {
     width: 40vw;
     aspect-ratio: 16 / 12;
     background-color: blueviolet;
+}
+
+/* Pagina 4*/
+
+#quarta_pagina {
+    padding: 5px;
+   
+}
+#subtitulo_pagina_quatro {
+    height: 50px;
+    background-color: rgb(87, 87, 87);
+    margin-bottom: 5px;
+}
+
+#works {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.works_pagina_quatro {
+    width: 500px;
+    height: 327px;
+    background-color: rgb(0, 153, 255);
+}
+
+#rodape_principal {
+    background-color: rgb(41, 41, 209);
+    padding: 5px 0px;
+}
+
+.elementos_rodape {
+    height: 50px;
+    margin: 5px;
+    background-color: antiquewhite;
+
+}
+
+#rodape_redes_sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
